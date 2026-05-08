@@ -2,7 +2,7 @@
 
 Patches Discord's voice module on macOS for true stereo, 48 kHz, 384 kbps audio with adjustable gain.
 
-## ⚠️ Before you start — read this
+## Before you start — read this
 
 - **Disable SIP (System Integrity Protection)** on your Mac before patching. If SIP is on, Discord won't let you connect to voice chat after the patch is applied.
   How: reboot into Recovery (Apple menu → Restart, hold the power button on Apple Silicon, or ⌘R on Intel) → open **Terminal** from the Utilities menu → run `csrutil disable` → reboot.
@@ -37,4 +37,4 @@ You can hit **Restore** in the GUI to roll back any time.
 
 Made by **Voice**.
 
-> ⚠️ Modifies Discord files. Use at your own risk. Re-run after Discord updates. Not affiliated with Discord Inc.
+> Modifies Discord files. Use at your own risk. Re-run after Discord updates. Not affiliated with Discord Inc.
